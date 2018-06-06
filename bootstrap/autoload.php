@@ -8,7 +8,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-
+ini_set('xdebug.max_nesting_level', 300);
 define('LARAVEL_START', microtime(true));
 
 define('CACHET_VERSION', trim(file_get_contents(__DIR__.'/../VERSION')));
